@@ -105,9 +105,7 @@ ul li cancel:hover{
 .navbar{
     background-color: #A7B49E;
     overflow: hidden;
-    position:fixed;
-    top:0;
-    width:98%;
+   
    
 }
 .navbar a {
@@ -255,3 +253,42 @@ footer {
   color: white;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+    .rows {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flip-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flip-card {
+        width: 90%;
+        max-width: 280px;
+    }
+
+    .flip-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .flip-card-back {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+            form {
+                width: 60%;
+               
+            }
+        }
+
+@media screen and (max-width: 780px) {
+    form {
+        width: 90%;
+        max-width: 280px;
+    }}
