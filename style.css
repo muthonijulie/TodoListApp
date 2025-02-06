@@ -292,3 +292,22 @@ footer {
         width: 90%;
         max-width: 280px;
     }}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    input, button {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+    input, button {
+        width: 90%;
+    }
+}
