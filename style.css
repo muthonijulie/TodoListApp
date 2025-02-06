@@ -297,7 +297,7 @@ footer {
     .container {
         width: 80%;
     }
-    input, button {
+    #data, button {
         width: 80%;
     }
 
@@ -307,7 +307,7 @@ footer {
     .container {
         width: 90%;
     }
-    input, button {
+    #data, button {
         width: 90%;
     }
 }
