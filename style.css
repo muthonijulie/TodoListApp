@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+   
 }.container{
     width:100%;
     min-height: 100vh;
@@ -152,7 +153,9 @@ ul li cancel:hover{
 .rows{
     display: flex;
     margin:100px auto 20px;
-    padding:50px 30px 50px;
+    padding:50px 30px;
+     flex-wrap: wrap;
+      gap: 20px;
 }
  .flip-card {
             background-color: transparent;
@@ -299,7 +302,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 80%;
+        width: 100%;
     }
     #data {
         width: 70%;
@@ -314,7 +317,7 @@ footer {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 90%;
+        width: 100%;
     }
     #data {
         width: 60%;
